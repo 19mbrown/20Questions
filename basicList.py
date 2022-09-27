@@ -7,13 +7,14 @@ while yesOrNo != "y":
     name = input("Enter a name: ")
     listOfNames.append(name)
     yesOrNo = input("Do you want to carry on? (y/n) ")
+
 listOfNames = listOfNames.lower()
 
 printList = input("Do you want to print the list of names normally or reversed? (n/r) ")
 
 if printList == "r":
-    print(listOfNames.revers())
-else if printList == "n":
+    print(", ".join((listOfNames)).reverse())
+elif printList == "n":
     print(listOfNames)
 
 if input("Do you want to print out a specific number? (y/n) ") == "y":
