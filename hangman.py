@@ -44,5 +44,3 @@ def hangman(word):
         if new():
             print(f"Congrats! You've guessed the word! {word}")
             break
-
-hangman("Hello")
