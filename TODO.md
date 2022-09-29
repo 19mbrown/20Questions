@@ -6,4 +6,4 @@
 
 `RPGcreator.py`
 
-`binHexDec.py`
+`binDec.py` DONE!
