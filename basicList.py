@@ -13,7 +13,7 @@ listOfNames = listOfNames.lower()
 printList = input("Do you want to print the list of names normally or reversed? (n/r) ")
 
 if printList == "r":
-    print(", ".join((listOfNames)).reverse())
+    print(", ".join((listOfNames))[::-1])
 elif printList == "n":
     print(listOfNames)
 
