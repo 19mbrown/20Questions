@@ -1,5 +1,5 @@
 def decToBin(intInput):
-    if intInput >= 255:
+    if intInput > 255:
         return "Number must be >= 255"
     else:
         binN = str("{0:b}".format(intInput))
