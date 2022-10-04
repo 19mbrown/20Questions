@@ -4,6 +4,6 @@
 
 `passReset.py` DONE!
 
-`RPGcreator.py`
+`RPGcreator.py` DONE!
 
 `binDec.py` DONE!
