@@ -20,14 +20,12 @@ def hasLowers(a):
             break
         else:
             return False 
-global password
 password = str()
 
-def password():
-    while len(password) < 8 or not (hasLowers(password) and hasUppers(password)):
-        password = input("What's your password? ")
-        if not len(password) < 8 or not (hasLowers(password) and hasUppers(password)):
-            password2 = input("Retype the password: ")
+while len(password) < 8 or not (hasLowers(password) and hasUppers(password)):
+    password = input("What's your password? ")
+    if not len(password) < 8 or not (hasLowers(password) and hasUppers(password)):
+        password2 = input("Retype the password: ")
 if password == password2:
     print("Correct Password!!")
 else:
