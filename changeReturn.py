@@ -1,6 +1,3 @@
-cost = int(float(input("What's the price? ")) *100)
-given = int(float(input("How much money was given? ")) * 100)
-
 
 def change(a, b):
     denominations = [5000, 2000, 1000, 500, 200, 100, 
@@ -18,6 +15,7 @@ def change(a, b):
             string.append(denom)
 
     newList = list()
+    print(string)
     for i in string:
         match i:
             case 5000:
@@ -47,4 +45,6 @@ def change(a, b):
 
     return ", ".join(newList)
 
+cost = int(float(input("What's the price? ")) *100)
+given = int(float(input("How much money was given? ")) * 100)
 print(change(cost, given))
