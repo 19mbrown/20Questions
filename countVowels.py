@@ -3,4 +3,5 @@ def countVowels(string):
     numberOfVowels = dict()
     for i in vowels:
         numberOfVowels[i] = string.count(i)
-    return numberOfVowels, sum(numberOfVowels.values())
+    numberOfVowels["TOTAL"] = sum(numberOfVowels.values())
+    return numberOfVowels
