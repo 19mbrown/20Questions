@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import string as s
 from zxcvbn import zxcvbn 
 

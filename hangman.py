@@ -40,7 +40,6 @@ def hangman(word):
                     x = False
                     break
             return x
-        new()
         if new():
             print(f"Congrats! You've guessed the word! {word}")
             break

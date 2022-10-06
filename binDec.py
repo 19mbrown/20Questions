@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def decToBin(intInput):
     if intInput > 255:
         return "Number must be >= 255"

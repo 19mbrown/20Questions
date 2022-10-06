@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def countVowels(string):
     vowels = ["a", "e", "i", "o", "u"]
     numberOfVowels = dict()

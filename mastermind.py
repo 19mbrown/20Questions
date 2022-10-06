@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-### MASTER MIND
-
 from random import randrange
 
 

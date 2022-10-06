@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 letter = input("Enter a letter: ")
 
 global listOfWords

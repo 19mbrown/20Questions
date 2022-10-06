@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def palindrome(word):
     wordList = list(word)
     wordBack = wordList[::-1]

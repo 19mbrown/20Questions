@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def pigLatin(word):
     pig = list(word)
     for i in f"{pig[0]}ay":

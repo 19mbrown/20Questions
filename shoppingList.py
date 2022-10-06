@@ -1,5 +1,4 @@
-import pprint
-
+#!/usr/bin/python3
 shoppingList = dict()
 
 while True:
