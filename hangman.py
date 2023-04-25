@@ -34,12 +34,9 @@ def hangman(word):
 
         def new():
             for i in word:
-                if i in correctGuessesBak:
-                    x = True
-                else:
-                    x = False
-                    break
-            return x
+                if not i in correctGuessesBak:
+                    return False
+            return True
         if new():
             print(f"Congrats! You've guessed the word! {word}")
             break
